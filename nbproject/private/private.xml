@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/src/java/se/definewild/mediadist/db/facade/AbstractFacade.java</file>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/src/java/se/definewild/mediadist/db/Employees.java</file>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/src/java/se/definewild/mediadist/bean/Helper.java</file>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/web/pages/staff/todeliver.jsp</file>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/src/java/se/definewild/mediadist/db/Mediaitems.java</file>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/web/pages/staff/manage.jsp</file>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/src/java/se/definewild/mediadist/servlet/RegisterStaff.java</file>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/src/java/se/definewild/mediadist/db/facade/AbsencesFacade.java</file>
+            <file>file:/home/wild/NetBeansProjects/MediaDistributor/src/java/se/definewild/mediadist/db/UndeliveredData.java</file>
+        </group>
+    </open-files>
+</project-private>

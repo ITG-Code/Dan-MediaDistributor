@@ -1,0 +1,288 @@
+@import url("http://fonts.googleapis.com/css?family=Raleway:300|Press+Start+2P");
+* {
+  margin: 0;
+  padding: 0;
+}
+.hide {
+  display: none;
+}
+.register {
+  background-color: #802020;
+}
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+  color: #6da8ff;
+}
+body {
+  background-color: #232324;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  width: 100%;
+}
+nav,
+section,
+footer {
+  max-width: 1200px;
+  min-width: 1200px;
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: #454545;
+}
+nav {
+  color: #00a7f5;
+  font-size: 18px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  height: 30px;
+}
+nav a {
+  margin-left: 30px;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: -6px;
+  font-weight: bold;
+}
+nav .logo {
+  font-family: "Press Start 2P", sans-serif;
+  color: #0bb5ff;
+  font-size: 30px;
+  margin-left: 340px;
+  top: 0;
+  text-shadow: -2px -2px 1px #000000;
+}
+nav .logo:active {
+  text-shadow: 2px 2px 1px #000000;
+}
+nav .logo .beta {
+  color: #ffb50b;
+  font-size: 8px;
+  position: relative;
+  top: -24px;
+}
+.content {
+  padding: 0 5px;
+  background-color: #353535;
+  box-shadow: -1px -1px 1px #000000;
+  margin-top: 2px;
+}
+.content p {
+  white-space: pre-wrap;
+  margin-top: 4px;
+}
+.content p strong {
+  font-weight: bold;
+}
+.content h1 {
+  color: #50F060;
+  font-size: 40px;
+  text-align: center;
+}
+.content h2 {
+  color: #5090f0;
+  font-size: 32px;
+  text-align: center;
+}
+.content :not(h1) a:link,
+.content :not(h1) a:active,
+.content :not(h1) a:hover,
+.content :not(h1) a:visited {
+  color: #00a7ff;
+}
+.content h1 a:hover {
+  text-decoration: underline;
+  color: #21ec35;
+}
+#subscriptions {
+  width: 410px;
+  display: inline-block;
+  background: #404040;
+  border-radius: 4px;
+  padding: 4px;
+}
+#subscriptions .subscription {
+  width: 400px;
+  height: 45px;
+  border-radius: 2px;
+  padding: 2px;
+  margin-bottom: 2px;
+  border: 1px solid #555555;
+  background: #454545;
+}
+#subscriptions .subscription .name {
+  padding-left: 5px;
+  width: 290px;
+  display: inline-block;
+}
+#subscriptions .subscription .cancel {
+  width: 100px;
+  display: inline-block;
+}
+#loggedin {
+  width: 410px;
+  display: inline-block;
+  background: #404040;
+  border-radius: 4px;
+  padding: 4px;
+}
+#loggedin #logoutsubscriber input[type="submit"] {
+  width: 400px;
+}
+#todeliver .items {
+  width: 40%;
+  float: left;
+}
+#todeliver .map {
+  height: 500px;
+  float: left;
+  width: 60%;
+}
+#todeliver .map #map-canvas {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-right: 350px;
+}
+#todeliver .map #map-canvas h2 {
+  padding: 4px;
+  margin-top: 20px;
+  border: 4px solid #3080E0;
+  border-radius: 4px;
+}
+#todeliver .map #directions-panel {
+  height: 100%;
+  float: right;
+  width: 350px;
+  overflow: auto;
+  background-color: white;
+}
+#todeliver:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  font-size: 10px;
+  margin-top: 10px;
+  cursor: default;
+  color: #ffffff;
+  background-color: #232324;
+}
+footer a {
+  cursor: pointer;
+  z-index: 2;
+}
+footer .left {
+  display: inline-block;
+  width: 400px;
+  margin: 0;
+  text-align: left;
+}
+footer .left a {
+  text-align: center;
+}
+footer .center {
+  display: inline-block;
+  width: 400px;
+  margin: 0;
+  text-align: center;
+}
+footer .center a {
+  margin: 0 5px;
+  text-align: center;
+}
+footer .right {
+  display: inline-block;
+  width: 394px;
+  margin: 0;
+  text-align: right;
+}
+footer .right a {
+  text-align: center;
+  margin: 0 5px;
+}
+footer a .popup {
+  z-index: 10;
+  display: none;
+  padding: 8px 5px;
+  margin-top: -27px;
+  margin-left: -44px;
+  width: 60px;
+  height: 5px;
+  line-height: 4px;
+  /*.arrow {
+        z-index: -10;
+        width: 1px;
+        height: 1px;
+        border: 35px solid rgba(0, 0, 0, 0);
+        border-top: 10px solid #FFFAF0;
+        border-bottom: 0px solid #000000;
+        position: relative;
+        top: 28px;
+        left: -5px;
+        outline: 1px solid yellow;
+
+        &:before {
+          z-index: 9;
+          width: 1px;
+          height: 1px;
+          border: 36px solid rgba(0, 0, 0, 0);
+          border-top: 10px solid #000090;
+          position: relative;
+          top: 28px;
+          left: -5px;
+        }
+      }*/
+}
+footer a:hover {
+  color: #232324;
+  background-color: #ffffff;
+}
+footer a:hover .popup {
+  display: inline;
+  position: absolute;
+  color: #111111;
+  border: 2px solid #00A000;
+  background: #FFFAF0;
+  border-radius: 10px;
+}
+input,
+button,
+textarea,
+select {
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #c8c8c8;
+  margin-bottom: 5px;
+  width: 200px;
+}
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+input[type="submit"],
+.submit button,
+button {
+  border: 1px solid #1a7860;
+  background: #2ba495;
+  color: #ffffff;
+  cursor: pointer;
+  width: 222px;
+}
+select {
+  width: 222px;
+}
+/*# sourceMappingURL=main.css.map */
